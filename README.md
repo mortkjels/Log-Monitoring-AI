@@ -1,21 +1,67 @@
-# Log-Monitoring-AI
+# Log Monitoring AI
 
-This project is intended for educational and research purposes only.
+## Purpose
 
-The dataset and code simulate intrusion detection scenarios for learning
-machine learning and cybersecurity concepts. No real infrastructure or
-production systems are involved.
+This project is intended **strictly for educational and research purposes**.
 
-The dataset intentionally contains a higher proportion of attack traffic
-than typically observed in real networks.
+The repository contains code and datasets designed to simulate intrusion detection scenarios in order to explore:
 
-This is done to allow the AI agent to encounter intrusion scenarios more frequently during experimentation and evaluation.
+- Machine learning applications in cybersecurity
+- Log analysis techniques
+- AI-assisted threat explanation
 
-As described in the data.md file:
+No real infrastructure or production systems are involved.
 
-This dataset is fully synthetic and generated for educational purposes.
+---
 
-No real network traffic, personal data, or identifiable systems are included.
-All IP addresses belong to RFC1918 private ranges (10.0.0.0/8, 172.16.0.0/12).
+## Dataset Characteristics
 
-The dataset simulates network flows and intrusion attempts inspired by common IDS datasets such as CIC-IDS2017.
+The dataset used in this project is **fully synthetic**.
+
+It has been intentionally designed to include a **higher proportion of attack traffic** than what is typically observed in real-world environments.
+
+This design choice allows the AI agent to:
+
+- encounter intrusion scenarios more frequently
+- learn patterns more effectively during experimentation
+- provide meaningful analysis during testing
+
+---
+
+## Data Privacy and Safety
+
+As described in `data.md`:
+
+- The dataset is **entirely synthetic**
+- No real network traffic is used
+- No personal or identifiable data is included
+- No production systems are represented
+
+All IP addresses belong to **RFC1918 private address ranges**, including:
+
+- `10.0.0.0/8`
+- `172.16.0.0/12`
+
+These ranges are reserved for internal networks and cannot be routed on the public internet.
+
+---
+
+## Dataset Inspiration
+
+The simulated traffic patterns are inspired by commonly used intrusion detection datasets such as:
+
+- **CIC-IDS2017**
+
+However, the data in this repository is **independently generated and not copied** from any existing dataset.
+
+---
+
+## Summary
+
+This repository exists to support experimentation with:
+
+- AI-assisted log analysis
+- Intrusion detection concepts
+- Security event interpretation
+
+All data is synthetic and safe for public distribution.

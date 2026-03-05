@@ -1,7 +1,14 @@
-This dataset is fully synthetic and generated for educational purposes.
+## Dataset Description
 
-No real network traffic, personal data, or identifiable systems are included.
-All IP addresses belong to RFC1918 private ranges (10.0.0.0/8, 172.16.0.0/12).
+This dataset is **fully synthetic** and generated exclusively for educational purposes.
 
-The dataset simulates network flows and intrusion attempts inspired by common
-IDS datasets such as CIC-IDS2017.
+No real network traffic, personal data, or identifiable systems are included in the dataset.
+
+All IP addresses used belong to **RFC1918 private address ranges**, including:
+
+- `10.0.0.0/8`
+- `172.16.0.0/12`
+
+These ranges are reserved for internal networks and are not routable on the public internet.
+
+The dataset simulates **network flows and intrusion attempts** inspired by commonly used intrusion detection datasets such as **CIC-IDS2017**.
