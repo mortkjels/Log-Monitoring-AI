@@ -28,6 +28,12 @@ This design choice allows the AI agent to:
 
 ---
 
+## Delcaration of AI
+
+ChatGPT has been used in generation of the synthetic dataset. It has been used for only generational purposes in terms of faster generation of the dataset. It has done the visual part for the markdown files, to save time during the project. 
+
+
+--- 
 ## Data Privacy and Safety
 
 As described in `data.md`:
