@@ -1,12 +1,7 @@
 import pandas as pd
 import numpy as np
-from pathlib import Path
 
-current_path = Path(__file__).parent
-
-file_path = current_path.parent / "dataset" / "synthetic_dataset_log.csv"
-
-df = pd.read_csv(file_path)
+df = pd.read_csv("./project/dataset/synthetic_dataset_log.csv")
 
 print(df.head())
 
