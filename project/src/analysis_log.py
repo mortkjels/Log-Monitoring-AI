@@ -12,11 +12,6 @@ print(df.head())
 
 # df['Label'].value_counts().plot(kind='bar')
 
-# plt.title("Benign against Malicious")
-# plt.show()
-
-
-
 # X = df.drop('Label', axis=1).select_dtypes(include=['number'])
 # y = df['Label']
 
