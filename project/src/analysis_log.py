@@ -10,14 +10,21 @@ df = pd.read_csv("./project/dataset/synthetic_dataset_log.csv")
 
 print(df.head())
 
-X = df.drop('Label', axis=1).select_dtypes(include=['number'])
-y = df['Label']
+df['Label'].value_counts().plot(kind='bar')
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+plt.title("Benign against Malicious")
+plt.show()
 
-DTC = DecisionTreeClassifier(criterion='gini', max_depth=5, random_state=42)
+# X = df.drop('Label', axis=1).select_dtypes(include=['number'])
+# y = df['Label']
 
-d = DTC.fit(X_train,y_train)
+# X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+
+# DTC = DecisionTreeClassifier(criterion='gini', max_depth=5, random_state=42)
+
+# d = DTC.fit(X_train,y_train)
+
+
 
 
 
