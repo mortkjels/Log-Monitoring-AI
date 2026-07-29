@@ -22,7 +22,7 @@ y = df['Label']
 
 X_train, X_test, y_train, y_test = train_test_split(x, y, test_size=0.2, random_state=42)
 
-bst = XGBClassifier(n_estimators = 2, learning_rate = 1)
+bst = XGBClassifier(n_estimators = 2, learning_rate = 0.01, max_depth = 2)
 
 pred = bst.fit(X_train,y_train)
 
